@@ -1,0 +1,9 @@
+[v1.1.0] - 2021-03-09
+-Settings should now be toggled using Numpad0, to avoid accidentally using them
+-When toggling freecam, the game will also hook the rotate coordinates
+-Console have now a title based on the game name, game version and refresh rate
+-The camera that move gradually also running when not used (to decrease its speed)
+-Messages on the console are more explicit
+
+[v1.0.0] - 2020-12-31
+-Release
