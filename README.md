@@ -1,1 +1,1 @@
-# Bazaar_old
+Repo of old and unmaintained projects
