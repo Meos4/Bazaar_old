@@ -1,0 +1,102 @@
+1.1.0 - 14 Nov 2021
+
+- Removed "Difficulty" and "Fixes" in the informations.
+- "State:" now shows state of addons and fixes.
+- File names are now displayed with a maximum size of 50.
+- Wiki and Discord links have been moved to the About window.
+- Addition of a seed system.
+- Addition of a settings system.
+- .cue files are now compatible to open the game.
+- Now request using Save As to generate an associated .cue with the game.
+- When saving, now automatically regenerate sectors.
+- Added shortcuts for the menu bar.
+- Removal of the guide.
+- The window now uses a minimum size.
+- Now allows to drag and drop the rom or settings in the window.
+- The software icon has been remade to be smoother.
+- Removal of the "None" state of all features.
+- Add description to the states.
+- Beetle Key and the Calabas Herb are unbanned for loots.
+- The process of generating loot when randomizing the categories has been redone.
+
+------------------------------------------
+		Levant
+------------------------------------------
+- Removal of the "Max HP" feature.
+
+- Base Stats:
+  Renamed state "Random Sum" to "Random".
+
+------------------------------------------
+		Minion
+------------------------------------------
+- Renamed "Spawn Story Minions" feature to "Spawn in the Story" for clarity.
+
+- Spawn in the Story, Spawn in Eternal Corridor, Dream Minion and Koris Minion:
+  The state "+Allow EC Minions" is removed and enabled by default.
+
+- Dream Minion and Koris Minion: 
+  New state "Custom" allowing to choose the minion.
+
+- Renamed "Skin" feature to "Body Appearance" for clarity.
+
+- Body Appearance:
+  Renamed "Allow EC Bosses" state to "Allow EC Bosses Appearance" for clarity.
+
+- Special Attack / Magic: 
+  Modifiers Rate: 10% -> 20%.
+
+------------------------------------------
+		Boss
+------------------------------------------
+- Element:
+  The "Adapts Damage Modifiers" state is removed and enabled by default,
+  it will now also modify damage modifiers for "none" bosses.
+
+- EC Element:
+  The "Adapts Damage Modifiers" state is removed and enabled by default.
+  Renamed state "Random All" to "Random".
+
+------------------------------------------
+		Loot
+------------------------------------------
+- Valuables: 
+  New "+Random Warp Key" state allowing to randomize or not the warp keys.
+  Secret of Killing is now also randomized.
+
+- New "Dialogue Gifts" feature allowing to randomize the dialogue gifts.
+
+- Now also generate the loots of the spider forest after the petrification of the syrus village.
+
+------------------------------------------
+		Misc
+------------------------------------------
+- Use a new icon.
+
+- Hud Color: 
+  New "Custom" state allowing to choose the colors.
+
+- New "Battle Maps" feature allowing to randomize the battle maps.
+
+- Moved "Difficulty" and "Skip Tutorial" in the new category Addons.
+
+------------------------------------------
+		Addons
+------------------------------------------
+- New "Nuzlocke" feature allowing the rules 1 capture by area and the definitive minion death.
+
+- Skip Tutorial: 
+  Fixed a bug where using the arena battle stage before the new game would ignore the skip.
+
+- New "x2 Framerate" feature to speed up game framerate using Select in game.
+
+- New "Eternal Corridor Level Cap" feature allowing to change the level cap of the eternal corridor.
+
+------------------------------------------
+		Fixes
+------------------------------------------
+- Hp Mp Bars: 
+  "Custom Size" state allowing to choose the size replaces "Size /2"
+
+- New "Special Attack Modifiers Display [PAL-FR]" feature allowing to fix 
+  the bug in the French version which did not display the modifiers.
